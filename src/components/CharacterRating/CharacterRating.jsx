@@ -1,3 +1,5 @@
+import "./character-ratings.css"
+
 export function CharacterRatings({charactersData}){
   const top5 = getCharactersMoreVoted(charactersData);
   return (

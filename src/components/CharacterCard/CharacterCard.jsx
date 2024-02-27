@@ -1,3 +1,5 @@
+import "./character-cards.css"
+
 export function CharacterCard ({charactersData}){
   return(
     <section id='character-cards'>
